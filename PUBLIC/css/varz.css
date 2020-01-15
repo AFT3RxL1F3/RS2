@@ -1,0 +1,26 @@
+:root {
+    /* Fontz*/
+    --font-A: 'Montserrat', sans-serif;
+    --font-B: 'Ubuntu', sans-serif;
+    --font-C: 'Exo 2', sans-serif;
+    --font-D: 'Comfortaa', cursive;
+    --font-E: 'Cute Font', cursive;
+    --font-F: 'Monda', sans-serif;
+    --font-G: 'Ubuntu Condensed', sans-serif;
+    --font-H: 'Exo', sans-serif;
+    --font-I: 'Righteous', cursive;
+    --font-J: 'Teko', sans-serif;
+    --font-K: 'Kanit', sans-serif;
+    --font-L: 'Quicksand', sans-serif;
+    --font-M: 'Titillium Web', sans-serif;
+    --font-N: 'Muli', sans-serif;
+    --font-O: 'Gayathri', sans-serif;
+    --font-P: 'Raleway', sans-serif;
+    /* Colorz */
+    --clr-X: rgb(220, 220, 220);
+    --clr-Y: rgb(250, 250, 240);
+    --clr-Z: rgb(25, 25, 25);
+    --clr-A1: rgb(0, 75, 150);
+    --clr-004: #000;
+    --clr-005: #000;
+}

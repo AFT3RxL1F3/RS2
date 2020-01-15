@@ -1,3 +1,7 @@
 body {
-    background-color: blueviolet !important;
+    background-color: var(--clr-X);
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
 }
