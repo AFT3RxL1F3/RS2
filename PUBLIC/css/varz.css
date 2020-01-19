@@ -1,26 +1,90 @@
 :root {
-    /* Fontz*/
-    --font-A: 'Montserrat', sans-serif;
-    --font-B: 'Ubuntu', sans-serif;
-    --font-C: 'Exo 2', sans-serif;
-    --font-D: 'Comfortaa', cursive;
-    --font-E: 'Cute Font', cursive;
-    --font-F: 'Monda', sans-serif;
-    --font-G: 'Ubuntu Condensed', sans-serif;
-    --font-H: 'Exo', sans-serif;
-    --font-I: 'Righteous', cursive;
-    --font-J: 'Teko', sans-serif;
-    --font-K: 'Kanit', sans-serif;
-    --font-L: 'Quicksand', sans-serif;
-    --font-M: 'Titillium Web', sans-serif;
-    --font-N: 'Muli', sans-serif;
-    --font-O: 'Gayathri', sans-serif;
-    --font-P: 'Raleway', sans-serif;
-    /* Colorz */
+
+    /******FONTZ******/
+
+    /* SansSerif Tech Modern */
+    --font-A: 'Audiowide', cursive;
+    --font-B: 'Montserrat', sans-serif;
+    --font-C: 'Montserrat Alternates', sans-serif;
+    --font-D: 'Exo 2', sans-serif;
+    --font-E: 'Exo', sans-serif;
+    --font-F: 'Comfortaa', cursive;
+    --font-G: 'Kanit', sans-serif;
+    --font-H: 'Righteous', cursive;
+    --font-I: 'Ubuntu', sans-serif;
+    --font-J: 'Ubuntu Condensed', sans-serif;
+    --font-K: 'Josefin Slab', serif;
+    --font-L: 'Cormorant Upright', serif;
+    /*Hand, Taboo, Display */
+    --font-M: 'Shadows Into Light', cursive;
+    --font-N: 'Rock Salt', cursive;
+    --font-O: 'Mr Dafoe', cursive;
+    --font-P: 'Nothing You Could Do', cursive;
+    --font-Q: 'Fredericka the Great', cursive;
+    --font-R: 'Turret Road', cursive;
+    --font-S: 'Kristi', cursive;
+    --font-T: 'Nanum Brush Script', cursive;
+    --font-U: 'Montez', cursive;
+    --font-V: 'Crafty Girls', cursive;
+    --font-W: 'Mrs Saint Delafield', cursive;
+    --font-X: 'Sirin Stencil', cursive;
+    --font-Y: 'Barriecito', cursive;
+    --font-Z: 'Sedgwick Ave Display', cursive;
+    /* 
+
+    
+    !~ ~ ~ Colorz ~ ~ ~*/
+    --BG-1: rgb(220, 225, 200);
+    --BG-2: rgb(25, 5, 0);
+    --BG-3: rgb(225, 220, 210);
+    --BG-4: rgb(60, 60, 60);
+    /* 
+    !Blk, Wht & Gryz */
     --clr-X: rgb(220, 220, 220);
     --clr-Y: rgb(250, 250, 240);
     --clr-Z: rgb(25, 25, 25);
-    --clr-A1: rgb(0, 75, 150);
-    --clr-004: #000;
-    --clr-005: #000;
+    /* 
+    !Blu/Grn */
+    --clr-A1: rgb(0, 255, 255);
+    --clr-A2: rgb(0, 100, 200);
+    --clr-A3: rgb(0, 70, 140);
+    --clr-A4: rgb(0, 50, 100);
+    --clr-A5: rgb(0, 30, 70);
+    /* 
+    !Red */
+    --clr-R1: rgb(250, 0, 0);
+    --clr-R2: rgb(200, 0, 0);
+    --clr-R3: rgb(150, 0, 0);
+    --clr-R4: rgb(100, 0, 0);
+    --clr-R5: rgb(70, 0, 0);
+    /*
+    !Grn*/
+    --clr-G1: rgb(20, 255, 20);
+    --clr-G2: rgb(0, 200, 0);
+    --clr-G3: rgb(0, 170, 0);
+    --clr-G4: rgb(0, 140, 0);
+    --clr-G5: rgb(0, 100, 0);
+    --clr-G6: rgb(0, 70, 0);
+    --clr-G7: rgb(0, 50, 0);
+    --clr-G8: rgb(0, 35, 0);
+    /* 
+!   ~Tope & Tan
+?   ~Note: T1 & T2 set the presadence here, and this theme is 
+?   ~to be made out of a color line starting with them. T3, T4
+?   ~& T5 were made on the fly, and are not concretly set.
+*   ~T2 is the RSN-Bar BG-clr */
+    --clr-T1: rgb(220, 225, 205);
+    --clr-T2: rgb(220, 220, 200);
+    --clr-T3: rgb(200, 190, 160);
+    --clr-T4: rgb(180, 170, 160);
+    --clr-T5: rgb(170, 150, 130);
+
+
+    --clr-O1: rgb(255, 150, 0);
+    --clr-O2: rgb(255, 100, 0);
+    --clr-O3: rgb(255, 70, 0);
+
+
+
+
 }

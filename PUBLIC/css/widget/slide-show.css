@@ -1,0 +1,13 @@
+/*     FILE INFO:      SlideShow Widget Style-Sheet
+     	DIR:		   	     '/RS2/PUBLIC/css/slideshow.css'
+     	DEV:   	   	   Ajay Chambers
+          Date:	  	  18-JANUARY-2020 :: 1pm (pst) */
+          
+.slideshow{
+     display: block;
+     width: 100vw;
+     height: 90vh;
+     margin: 0;
+     padding: 0;
+     background-color: var(--clr-G1);
+}

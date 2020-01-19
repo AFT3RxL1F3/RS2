@@ -1,0 +1,75 @@
+/*   ~~~ Tech-Logo Bar ~~~   */
+
+.logo-flex-contain {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: var(--clr-X);
+    width: 100vw;
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-flex-contain>div {
+    background-color: var(--clr-X);
+    width: 125px;
+    height: auto;
+    margin: 0 1vw;
+    padding: 0;
+    text-align: center;
+    line-height: 75px;
+    overflow: hidden;
+}
+
+.logo {
+    width: auto;
+    height: 75px;
+}
+
+
+/* #logo-git {
+     display: block;
+ }
+ 
+ #logo-html {
+     display: block;
+ }
+ 
+ #logo-lnx {
+     display: block;
+ }
+ 
+ #logo-vsc {
+     display: block;
+ }
+ 
+ #logo-ggl {
+     display: block;
+ } */
+
+@media only screen and (max-width: 1200px) {
+    .logo {
+        width: auto;
+        height: 40px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .logo-flex-contain {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 100vw;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .logo-flex-contain>div {
+        background-color: var(--clr-X);
+        width: 35px;
+    }
+    .logo {
+        width: auto;
+        height: 30px;
+    }
+}

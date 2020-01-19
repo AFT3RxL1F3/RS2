@@ -2,17 +2,21 @@
                         ~ Developed By: Ajay Chambers  aka AFT3RxL1F3
                         ~ 14-JAN-2020  @ aprx. 11:00pm                               -->
 
-<div class="rsn">
+<div id="rsn" class="hidden-border">
+	<i id="home" class="fa fa-home fa-2x"></i>
+	<a href="about-ajc">RS2-Design</a>
+	<a href="about">About Me</a>
+	<h3>RS2 Development</h3>
+	<a href="lib">Articles</a>
+	<a href="forum">Forum</a>
+	<i id="bars" class="fa fa-bars fa-2x" onclick="toggleHide()"></i>
+</div>
 
-          <button id="btn-home">HOME</button>
-          <button id="btn-about">ABOUT</button>
-          <button id="btn-templates">TEMPLATES</button>
-          <button id="btn-projects">PROJECTS</button>
-          <button id="btn-contact-AJ"><i class="far fa-address-card fa-1x"> Contact A.J.</i></button>
+<div id="drop-menu">
+	<a href="about-ajc">RS2-Design</a>
+	<a href="about">About Me</a>
+	<a href="lib">Articles</a>
+	<a href="forum">Forum</a>
 </div>
-<br>
-<br>
-<div class="title-grid">
-          <h1 class="title">RS2 Web-Development</h1>
-          <h3 class="subtitle">Responsive, Scalable & Secure, A Freelance Operation<h3>
-</div>
+
+<script src="/RS2/PUBLIC/js/rsn.js"></script>

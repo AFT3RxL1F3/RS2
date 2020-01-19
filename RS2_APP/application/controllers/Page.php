@@ -13,5 +13,6 @@ class Page extends CI_Controller
 		$this->load->view('html-doc-head/page', $data);
 		$this->load->view('widgets/rsn');
 		$this->load->view('pages/' . $page, $data);
+		$this->load->view('widgets/slide-show');
 	}
 }
